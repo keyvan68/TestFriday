@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\01-domain\Core\App.Domain.Core\App.Domain.Core.csproj" />
+    <ProjectReference Include="..\App.Infrastructure.DB.SqlServer.EF\App.Infrastructure.DB.SqlServer.EF.csproj" />
+  </ItemGroup>
+
+</Project>
